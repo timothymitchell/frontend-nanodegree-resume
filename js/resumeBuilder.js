@@ -72,7 +72,7 @@ var work = {
       "title": "Front End Developer",
       "location": "Atlanta, GA",
       "dates": "2010 - Current",
-      "description": "Currently working with our Java team develping the front end of our Transportation Management software."
+      "description": "Currently working with our Java team developing the front end of our Transportation Management software."
     },
     {
       "employer": "Henry County Board of Commissioners",
