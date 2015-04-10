@@ -15,7 +15,7 @@
 
 h1 {
   font-size: 40px;
-  color: #F5A623;
+  color: #47292B;
   line-height: 48px;
   display: inline;
 }
@@ -23,7 +23,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999999;
+  color: #47292B;
   line-height: 29px;
   padding: 10px;
 }
@@ -79,6 +79,10 @@ a {
   display: block;
 }
 
+.title {
+  color: #53BCEB;
+}
+
 .welcome-message {
   font-style: italic;
   font-size: 18px;
@@ -87,16 +91,25 @@ a {
 }
 
 #skillsH3 {
-  color: #F5AE23;
+  color: #B58847;
   display: none;
 }
 
-.orange {
-  background-color: #F5AE23;
+.img-cir {
+  height: 200px;
+  width: 200px;
+  border-radius: 150px;
+  float: left;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  }
+
+.dark-yellow-text {
+  color: #F1B113;
 }
 
-.orange-text {
-  color: #F5AE23;
+.light-yellow-text {
+  color: #F9F5DC;
 }
 
 .white-text {
@@ -104,19 +117,19 @@ a {
   color: #FFFFFF;
 }
 
-.gray {
-  background-color: #F3F3F3;
+.light-yellow-bg {
+  background-color: #F9F5DC;
   padding-bottom: 10px;
   clear:both;
 }
 
-.dark-gray {
-  background-color: #4A4A4A;
+.dark-brown {
+  background-color: #47292B;
 }
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #47292B;
 }
 
 .flex-box {
@@ -126,6 +139,10 @@ a {
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 10px;
+}
+
+#footerContacts {
+  background-color: #B58847;
 }
 
 .center-content {
@@ -142,7 +159,6 @@ ul {
 .biopic {
   float: left;
   padding: 10px;
-  width: 200px;
   display: none;
 }
 
